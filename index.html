@@ -3,32 +3,85 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Wallet Tracker</title>
-  <meta name="description" content="Wallet Tracker app information, privacy policy, and terms of service.">
+  <title>Wallet Tracker | Accounts, Expenses &amp; Reports</title>
+  <meta name="description" content="Track income, expenses, and transfers across accounts and currencies, review reports, and manage backups with Wallet Tracker.">
+  <link rel="canonical" href="https://englishaburrub-collab.github.io/WalletTrackerPublic/">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="app-icon.png" type="image/png">
 </head>
 <body>
-  <main>
-    <h1>Wallet Tracker</h1>
-
-    <p>
-      Wallet Tracker helps users track expenses, balances, and backups.
-    </p>
-
-    <h2>Legal</h2>
-    <ul>
-      <li>
-        <a href="privacy.html">Privacy Policy</a>
-      </li>
-      <li>
-        <a href="terms.html">Terms of Service</a>
-      </li>
-    </ul>
-
-    <h2>Contact</h2>
-    <p>
-      Email:
-      <a href="mailto:english.aburrub@gmail.com">english.aburrub@gmail.com</a>
-    </p>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="/">Yaser Aburrub</a>
+      <nav class="site-nav" aria-label="App navigation">
+        <a href="/">All apps</a>
+        <a href="/WalletTrackerPublic/" aria-current="page">Wallet Tracker</a>
+        <a href="/tasbeeh-public/">Tasbeeh</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="wrap">
+    <section class="product-hero" aria-labelledby="page-title">
+      <div>
+        <img class="app-icon" src="app-icon.png" width="60" height="60" alt="">
+        <h1 id="page-title">Wallet Tracker</h1>
+        <p class="lead">Track income, expenses, and transfers across accounts and currencies. Use balances, categories, and reports to see where your money goes.</p>
+        <div class="actions">
+          <a class="button button-wallet" href="web/">Open web app</a>
+          <a class="text-link" href="#features">View features</a>
+        </div>
+      </div>
+      <div class="art wallet-art" aria-hidden="true">
+          <div class="wallet-preview">
+            <span class="preview-label">Example balance</span>
+            <strong class="preview-value">$2,460.00</strong>
+            <div class="bars">
+              <span style="--height: 36%"></span><span style="--height: 55%"></span>
+              <span style="--height: 44%"></span><span style="--height: 66%"></span>
+              <span style="--height: 58%"></span><span style="--height: 78%"></span>
+              <span style="--height: 91%"></span>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="features" class="details" aria-labelledby="features-title">
+      <h2 id="features-title">Features</h2>
+      <div class="feature-grid">
+        <article class="feature">
+          <h3>Accounts and transactions</h3>
+          <p>Record money in, money out, and transfers between accounts. Organize transactions with categories and payment methods.</p>
+        </article>
+        <article class="feature">
+          <h3>Reports and recurring activity</h3>
+          <p>Review account balances and monthly reports. Set up recurring transactions and use your configured exchange rates to work across currencies.</p>
+        </article>
+        <article class="feature">
+          <h3>Local records and backups</h3>
+          <p>Tracker keeps a local copy of your records. Supported builds offer optional Google Drive sync and restore points, alongside local export and import.</p>
+        </article>
+      </div>
+    </section>
+    <section class="resources" aria-labelledby="resources-title">
+      <div>
+        <h2 id="resources-title">Support and policies</h2>
+      </div>
+      <div class="actions">
+          <a class="text-link" href="privacy.html">Privacy Policy</a>
+          <a class="text-link" href="terms.html">Terms of Service</a>
+          <a class="text-link" href="mailto:english.aburrub@gmail.com">Email support</a>
+        </div>
+    </section>
   </main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <a class="wordmark" href="/">Yaser Aburrub</a>
+      <nav aria-label="Footer">
+        <div class="actions">
+          <a class="text-link" href="/tasbeeh-public/">Explore Tasbeeh</a>
+        </div>
+      </nav>
+    </div>
+  </footer>
 </body>
 </html>
